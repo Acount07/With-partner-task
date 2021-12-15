@@ -11,7 +11,36 @@ $gr: gray;
     display: flex;
 }
 
-.container{
+.container-fluid{
     width: 100%;
-    height: 100vh;
+    .first-page{
+        width: 100%;
+        height: 100vh;
+        background: url(./background.jpg);
+        background-size:cover;
+        background-position: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn{
+            width: 40px;
+            height: 40px;
+            background-color: black;
+            color: $wt;
+            font-size: 25px;
+            position: fixed;
+            top: 5%;
+            right: 4%;
+            border: none;
+        }
+        .header-text{
+            width: 40%;
+            height: 300px;
+            border: $b;
+            color: $wt;
+            h1{
+                font-size: 45px;
+            }
+        }
+    }
 }
