@@ -4,7 +4,7 @@
     padding: 0;
 }
 $b: 1px solid red;
-$wt: white;
+$wt: blue;
 $gr: gray;
 
 .d-flex{
@@ -36,10 +36,19 @@ $gr: gray;
         .header-text{
             width: 40%;
             height: 300px;
-            border: $b;
             color: $wt;
+            text-align: center;
             h1{
-                font-size: 45px;
+                font-size: 90px;
+            }
+            button{
+                width: 150px;
+                height: 40px;
+                margin-top: 20px;
+                background: none;
+                border: 3px solid $wt;
+                color: $wt;
+                font-weight: 800;
             }
         }
     }

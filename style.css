@@ -36,7 +36,7 @@
   width: 40px;
   height: 40px;
   background-color: black;
-  color: white;
+  color: blue;
   font-size: 25px;
   position: fixed;
   top: 5%;
@@ -47,11 +47,21 @@
 .container-fluid .first-page .header-text {
   width: 40%;
   height: 300px;
-  border: 1px solid red;
-  color: white;
+  color: blue;
+  text-align: center;
 }
 
 .container-fluid .first-page .header-text h1 {
-  font-size: 45px;
+  font-size: 90px;
+}
+
+.container-fluid .first-page .header-text button {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  background: none;
+  border: 3px solid blue;
+  color: blue;
+  font-weight: 800;
 }
 /*# sourceMappingURL=style.css.map */
