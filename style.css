@@ -64,4 +64,38 @@
   color: blue;
   font-weight: 800;
 }
+
+.boss {
+  text-align: center;
+  /* // margin-left: 500px;/ */
+  margin-top: 200px;
+}
+
+.t-1 {
+  color: #6f6c6c;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.t-2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #141313;
+}
+
+.br {
+  border-bottom: 3px solid #8a8181;
+  width: 140px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.cards {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 /*# sourceMappingURL=style.css.map */

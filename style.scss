@@ -53,3 +53,34 @@ $gr: gray;
         }
     }
 }
+.boss{
+    text-align: center;
+    /* // margin-left: 500px;/ */
+    margin-top: 200px;
+}
+
+.t-1{
+    color: rgb(111, 108, 108);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.t-2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(20, 19, 19);
+
+}
+
+.br{
+    border-bottom: 3px solid rgb(138, 129, 129);
+    width: 140px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.cards{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
